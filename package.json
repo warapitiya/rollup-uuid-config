@@ -1,0 +1,22 @@
+{
+  "name": "uuid-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.27.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "rollup-plugin-typescript": "^1.0.1"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "build": "yarn rollup -c"
+  }
+}
